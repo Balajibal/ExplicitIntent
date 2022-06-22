@@ -1,15 +1,14 @@
-### EX NO : 02
-### DATE  : 
-# <p align="center"> ExplicitIntent </p>
-create two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
+### EX NO: 02(b)
+### DATE: 
+# <p align="center"> ExplicitIntent</p>
 
-### AIM
-display factorial number using Explicit Intents in Android Studio.
+ ### AIM
+ display factorial number using Explicit Intents in Android Studio.
 
 ### EQUIPMENTS REQUIRED:
 Android Studio(Min. required Artic Fox)
 
-### ALGORITHM:
+## ALGORITHM: 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “ex.no.2″ and click Next.
@@ -24,7 +23,7 @@ Step 6: open google page using Implicit Intents and display factorial number usi
 
 Step 7: Save and run the application.
 
-### PROGRAM:
+## PROGRAM:
 ```
 /*
 Program to print the text “Implicit Intents”.
@@ -32,8 +31,8 @@ Developed by: Balaji N
 Registeration Number :212220230006
 */
 ```
-MainActivity.java
-```java
+### MainActivity.java
+```
 package com.example.exintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -57,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 }
-activity_main.xml
+```
+### activity_main.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -83,8 +84,8 @@ activity_main.xml
 
 </LinearLayout>
 ```
-MainActivity2.java
-```java
+### MainActivity2.java
+```
 package com.example.exintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -113,7 +114,9 @@ public class MainActivity2 extends AppCompatActivity {
     }
 }
 
-activity_main2.xml
+```
+### activity_main2.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -130,10 +133,9 @@ activity_main2.xml
 
 </RelativeLayout>
 ```
-### Output image
-![165326457-820c8fd6-4c9a-4f6a-b9f9-8b2742f3496f](https://user-images.githubusercontent.com/75234946/165761406-fa5277ea-b22d-4fcb-8b8c-dad9b15746c0.png)
-![165326491-ba8f1a4d-b18f-49b2-8f0b-4b4af55b9185](https://user-images.githubusercontent.com/75234946/165761497-33ca5ea3-3049-4faf-b4b4-3ee72e82f8e9.png)
+Output
+![image](https://user-images.githubusercontent.com/75235334/165326457-820c8fd6-4c9a-4f6a-b9f9-8b2742f3496f.png)
+![image](https://user-images.githubusercontent.com/75235334/165326491-ba8f1a4d-b18f-49b2-8f0b-4b4af55b9185.png)
 
-
-### Result
+## result
 display factorial of the same number using Explicit Intents using Android Studio is developed and executed successfully.
